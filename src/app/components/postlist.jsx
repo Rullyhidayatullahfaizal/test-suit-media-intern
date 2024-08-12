@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect } from "react";
-import PostCard from "./PostCard";
+import PostCard from "./postCard";
 
 const PostList = ({ posts }) => {
   const [sortedPosts, setSortedPosts] = useState(posts);
